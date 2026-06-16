@@ -3,8 +3,6 @@
 
 const verificarEdad = (edad) => {
     return new Promise((resolve, reject) => {
-        console.log(`Verificando edad: ${edad} años...`);
-        
         setTimeout(() => {
             if (edad >= 18) {
                 resolve(`Acceso concedido. Bienvenido a la plataforma`);

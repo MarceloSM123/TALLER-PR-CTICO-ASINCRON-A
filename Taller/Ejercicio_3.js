@@ -4,7 +4,6 @@
 
 const consultarClima = (ciudad) => {
     return new Promise((resolve) => {
-        console.log(`Consultando el clima en ${ciudad}`);
         
         const climas = {
             "Quito": { temperatura: "18°C", condicion: "Nublado", humedad: "65%" },

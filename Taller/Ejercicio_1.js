@@ -6,8 +6,6 @@ const retirarDinero = (monto) => {
     return new Promise((resolve, reject) => {
         const saldoDisponible = 500;
         
-        console.log(` Procesando retiro de $${monto}...`);
-        
         setTimeout(() => {
             if (monto <= saldoDisponible) {
                 const saldoRestante = saldoDisponible - monto;
